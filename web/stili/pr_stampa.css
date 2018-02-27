@@ -1,0 +1,7 @@
+nav{
+	display: none;
+}
+
+.disp{
+	page-break-inside: avoid;
+}

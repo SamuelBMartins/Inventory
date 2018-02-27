@@ -1,0 +1,14 @@
+/* CSS Document */
+.sinistra_agg{
+	width: 150px;
+	float: left;
+	padding-left: 20px;
+}
+
+.note_agg{
+	padding-left: 10px;
+}
+
+.piu_mac{
+	margin-left: 20px;
+}

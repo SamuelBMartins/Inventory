@@ -1,0 +1,51 @@
+/* CSS Document */
+body {
+	margin: 0;
+    font-family: helvetica;
+}
+
+.bar-error {
+	width: 100%;
+	background-color: #ef4136;
+	padding-left: 30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #333;
+}
+
+.bar-verde {
+	width: 100%;
+	background-color: #4CAF50;
+	padding-left: 30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.login {
+	width: 230px;
+    height: 100px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.tasto_invia {
+	margin-top: 10px;
+
+}
+
+.box {
+	padding-top: 10px;
+}
+
+.sinistra_info{
+	width: 250px;
+	float: left;
+
+}
+
+.note_info{
+	float: left;
+	padding-right: 10px;
+}

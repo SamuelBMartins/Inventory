@@ -1,0 +1,70 @@
+/* CSS Document */
+table{
+	border-collapse: collapse;
+	width: calc(100% - 16px);
+	border: 1px solid #ddd;
+	font-size: 16px;
+	margin-left: 8px;
+	margin-right: 8px;
+}
+
+th, td{
+	text-align: left;
+	padding: 12px;
+}
+
+tr{
+	border-bottom: 1px solid #ddd;
+	cursor: pointer;
+}
+
+tr.header{
+	cursor: default;
+}
+
+tr.header, tr:hover{
+	background-color: #f1f1f1;
+}
+
+th img{
+	width: 21px;
+	height: 21px;
+	padding-left: 5px;
+}
+
+.npage img,
+th img{
+	opacity: 0.7;
+}
+
+
+.npage img:hover,
+th img:hover{
+	opacity: 1;
+}
+
+.npage{
+	float: right;
+	padding-right: 12px;
+}
+
+.npage img{
+	width: 30px;
+	height: 30px;
+	padding: 7px;
+}
+
+th a{ text-decoration: none}
+
+th a:link{color: black;}
+
+th a:visited{color: black;}
+
+th a:hover{color: #ef4136;}
+
+th a:active{color: #ef4136;}
+
+.nodata{
+	padding-left: 15px;
+	font-size: 18px;
+}

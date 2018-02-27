@@ -1,0 +1,36 @@
+@page {
+	size: 210mm 297mm; 
+	margin: 20px,10px;
+}
+
+.disp,
+.qr,
+.info{
+	float: left;
+}
+
+.disp{
+	width: 355px;
+	height: 300px;
+}
+
+.qr,
+.info{
+	height: 300px;
+}
+
+.qr {
+	width: 155px;
+}
+
+.info {
+	width: 200px;
+}
+
+.clear {
+	clear: both;
+}
+
+.info p {
+	padding-top: 20px;
+}

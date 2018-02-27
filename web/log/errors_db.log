@@ -1,0 +1,726 @@
+Errore: exception 'PDOException' with message 'SQLSTATE[HY000] [2002] Connessione rifiutata' in /home/spse/workspace/Inventario/includes/db.inc.php:3
+Stack trace:
+#0 /home/spse/workspace/Inventario/includes/db.inc.php(3): PDO->__construct('mysql:host=nren...', 'nren_lpi', 'RhWUfwd7MhKsmU8...')
+#1 {main}
+data: 09-05-2017 10:25:58
+_______________________________
+Errore: exception 'PDOException' with message 'SQLSTATE[HY000] [2002] Connessione rifiutata' in /home/spse/workspace/Inventario/includes/db.inc.php:3
+Stack trace:
+#0 /home/spse/workspace/Inventario/includes/db.inc.php(3): PDO->__construct('mysql:host=nren...', 'nren_lpi', 'RhWUfwd7MhKsmU8...')
+#1 {main}
+data: 09-05-2017 10:26:04
+_______________________________
+Errore: exception 'PDOException' with message 'SQLSTATE[HY000] [2002] Impossibile stabilire la connessione. Risposta non corretta della parte connessa dopo l'intervallo di tempo oppure mancata risposta dall'host collegato.
+' in F:\XAMPP\htdocs\inventario\includes\db.inc.php:3
+Stack trace:
+#0 F:\XAMPP\htdocs\inventario\includes\db.inc.php(3): PDO->__construct('mysql:host=nren...', 'nren_inventario', '1kgXLvpZYt6F')
+#1 F:\XAMPP\htdocs\inventario\index.php(34): include_once('F:\\XAMPP\\htdocs...')
+#2 {main}
+data: 17-07-2017 8:25:11
+_______________________________
+Errore: exception 'PDOException' with message 'SQLSTATE[HY000] [2002] Impossibile stabilire la connessione. Risposta non corretta della parte connessa dopo l'intervallo di tempo oppure mancata risposta dall'host collegato.
+' in F:\XAMPP\htdocs\inventario\includes\db.inc.php:3
+Stack trace:
+#0 F:\XAMPP\htdocs\inventario\includes\db.inc.php(3): PDO->__construct('mysql:host=nren...', 'nren_inventario', '1kgXLvpZYt6F')
+#1 F:\XAMPP\htdocs\inventario\index.php(34): include_once('F:\\XAMPP\\htdocs...')
+#2 {main}
+data: 17-07-2017 8:31:58
+_______________________________
+Errore: exception 'PDOException' with message 'SQLSTATE[HY000] [2002] Impossibile stabilire la connessione. Risposta non corretta della parte connessa dopo l'intervallo di tempo oppure mancata risposta dall'host collegato.
+' in F:\XAMPP\htdocs\inventario\includes\db.inc.php:3
+Stack trace:
+#0 F:\XAMPP\htdocs\inventario\includes\db.inc.php(3): PDO->__construct('mysql:host=nren...', 'nren_inventario', '1kgXLvpZYt6F')
+#1 F:\XAMPP\htdocs\inventario\index.php(34): include_once('F:\\XAMPP\\htdocs...')
+#2 {main}
+data: 17-07-2017 8:32:30
+_______________________________
+Errore: exception 'PDOException' with message 'SQLSTATE[HY000] [2002] Impossibile stabilire la connessione. Risposta non corretta della parte connessa dopo l'intervallo di tempo oppure mancata risposta dall'host collegato.
+' in F:\XAMPP\htdocs\inventario\includes\db.inc.php:3
+Stack trace:
+#0 F:\XAMPP\htdocs\inventario\includes\db.inc.php(3): PDO->__construct('mysql:host=nren...', 'nren_inventario', '1kgXLvpZYt6F')
+#1 F:\XAMPP\htdocs\inventario\index.php(34): include_once('F:\\XAMPP\\htdocs...')
+#2 {main}
+data: 17-07-2017 8:32:57
+_______________________________
+Errore: exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.tipo
+				marca.marca
+			FROM dispositivi INNER JOIN aula 
+				ON dispositivi' at line 11' in F:\XAMPP\htdocs\inventario\private\stampa.php:39
+Stack trace:
+#0 F:\XAMPP\htdocs\inventario\private\stampa.php(39): PDO->query('SELECT \r\n\t\t\t\tdi...')
+#1 {main}
+data: 17-07-2017 11:22:55
+_______________________________
+Errore: exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'dispositivo.Tipo_idTipo' in 'on clause'' in F:\XAMPP\htdocs\inventario\private\stampa.php:39
+Stack trace:
+#0 F:\XAMPP\htdocs\inventario\private\stampa.php(39): PDO->query('SELECT \r\n\t\t\t\tdi...')
+#1 {main}
+data: 17-07-2017 11:23:25
+_______________________________
+Errore: exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''tipo'' at line 2' in F:\XAMPP\htdocs\inventario\includes\classi.inc.php:38
+Stack trace:
+#0 F:\XAMPP\htdocs\inventario\includes\classi.inc.php(38): PDOStatement->execute()
+#1 F:\XAMPP\htdocs\inventario\test.php(10): DB::r_array('tipo')
+#2 {main}
+data: 18-07-2017 9:28:59
+_______________________________
+Errore: exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''tipo'´' at line 2' in F:\XAMPP\htdocs\inventario\includes\classi.inc.php:38
+Stack trace:
+#0 F:\XAMPP\htdocs\inventario\includes\classi.inc.php(38): PDOStatement->execute()
+#1 F:\XAMPP\htdocs\inventario\test.php(10): DB::r_array('tipo')
+#2 {main}
+data: 18-07-2017 9:30:00
+_______________________________
+Errore: exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''tipo'' at line 2' in F:\XAMPP\htdocs\inventario\includes\classi.inc.php:38
+Stack trace:
+#0 F:\XAMPP\htdocs\inventario\includes\classi.inc.php(38): PDOStatement->execute()
+#1 F:\XAMPP\htdocs\inventario\test.php(10): DB::r_array('tipo')
+#2 {main}
+data: 18-07-2017 9:30:33
+_______________________________
+Errore: exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''tipo'' at line 2' in F:\XAMPP\htdocs\inventario\includes\classi.inc.php:38
+Stack trace:
+#0 F:\XAMPP\htdocs\inventario\includes\classi.inc.php(38): PDOStatement->execute()
+#1 F:\XAMPP\htdocs\inventario\test.php(10): DB::r_array('tipo')
+#2 {main}
+data: 18-07-2017 9:33:21
+_______________________________
+Errore: exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'nren_inventario.'tipo'' doesn't exist' in F:\XAMPP\htdocs\inventario\includes\classi.inc.php:38
+Stack trace:
+#0 F:\XAMPP\htdocs\inventario\includes\classi.inc.php(38): PDOStatement->execute()
+#1 F:\XAMPP\htdocs\inventario\test.php(10): DB::r_array('tipo')
+#2 {main}
+data: 18-07-2017 9:35:30
+_______________________________
+Errore: exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''tipo'' at line 2' in F:\XAMPP\htdocs\inventario\includes\classi.inc.php:38
+Stack trace:
+#0 F:\XAMPP\htdocs\inventario\includes\classi.inc.php(38): PDOStatement->execute()
+#1 F:\XAMPP\htdocs\inventario\test.php(10): DB::r_array('tipo')
+#2 {main}
+data: 18-07-2017 9:36:09
+_______________________________
+Errore: exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'nren_inventario.'tipo'' doesn't exist' in F:\XAMPP\htdocs\inventario\includes\classi.inc.php:38
+Stack trace:
+#0 F:\XAMPP\htdocs\inventario\includes\classi.inc.php(38): PDOStatement->execute()
+#1 F:\XAMPP\htdocs\inventario\test.php(10): DB::r_array('tipo')
+#2 {main}
+data: 18-07-2017 9:36:23
+_______________________________
+Errore: exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'nren_inventario.'tipo'' doesn't exist' in F:\XAMPP\htdocs\inventario\includes\classi.inc.php:38
+Stack trace:
+#0 F:\XAMPP\htdocs\inventario\includes\classi.inc.php(38): PDOStatement->execute()
+#1 F:\XAMPP\htdocs\inventario\test.php(10): DB::r_array('tipo')
+#2 {main}
+data: 18-07-2017 9:37:05
+_______________________________
+Errore: exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'nren_inventario.'tipo'' doesn't exist' in F:\XAMPP\htdocs\inventario\includes\classi.inc.php:38
+Stack trace:
+#0 F:\XAMPP\htdocs\inventario\includes\classi.inc.php(38): PDOStatement->execute()
+#1 F:\XAMPP\htdocs\inventario\test.php(10): DB::r_array('tipo')
+#2 {main}
+data: 18-07-2017 9:37:54
+_______________________________
+Errore: exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'nren_inventario.'tipo'' doesn't exist' in F:\XAMPP\htdocs\inventario\includes\classi.inc.php:38
+Stack trace:
+#0 F:\XAMPP\htdocs\inventario\includes\classi.inc.php(38): PDOStatement->execute()
+#1 F:\XAMPP\htdocs\inventario\test.php(10): DB::r_array('tipo')
+#2 {main}
+data: 18-07-2017 9:38:08
+_______________________________
+Errore: exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'nren_inventario.'tipo'' doesn't exist' in F:\XAMPP\htdocs\inventario\includes\classi.inc.php:38
+Stack trace:
+#0 F:\XAMPP\htdocs\inventario\includes\classi.inc.php(38): PDOStatement->execute()
+#1 F:\XAMPP\htdocs\inventario\test.php(11): DB::r_array('tipo')
+#2 {main}
+data: 18-07-2017 9:38:29
+_______________________________
+Errore: exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'nren_inventario.macra' doesn't exist' in F:\XAMPP\htdocs\inventario\includes\classi.inc.php:36
+Stack trace:
+#0 F:\XAMPP\htdocs\inventario\includes\classi.inc.php(36): PDO->query('SELECT *\r\n\t\t\t\t\t...')
+#1 F:\XAMPP\htdocs\inventario\includes\classi.inc.php(174): DB::r_array('macra')
+#2 F:\XAMPP\htdocs\inventario\test.php(8): CSV::carica('F:\\XAMPP\\tmp\\ph...')
+#3 {main}
+data: 18-07-2017 10:39:21
+_______________________________
+Errore: exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '"serial_number",
+						"product_name",
+						"product_number",
+						"inizio_' at line 2' in F:\XAMPP\htdocs\inventario\includes\classi.inc.php:232
+Stack trace:
+#0 F:\XAMPP\htdocs\inventario\includes\classi.inc.php(232): PDOStatement->execute()
+#1 F:\XAMPP\htdocs\inventario\test.php(8): CSV::carica('F:\\XAMPP\\tmp\\ph...')
+#2 {main}
+data: 18-07-2017 11:09:13
+_______________________________
+Errore: exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '"serial_number",
+						"product_name",
+						"product_number",
+						"inizio_' at line 2' in F:\XAMPP\htdocs\inventario\includes\classi.inc.php:232
+Stack trace:
+#0 F:\XAMPP\htdocs\inventario\includes\classi.inc.php(232): PDOStatement->execute()
+#1 F:\XAMPP\htdocs\inventario\test.php(8): CSV::carica('F:\\XAMPP\\tmp\\ph...')
+#2 {main}
+data: 18-07-2017 11:11:28
+_______________________________
+Errore: exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''(VLAGD33,ASSEMBLY L171P-9417 Monitor,4439HB2,2007-10-15,2010-10-14,MonDMS,,0,1,' at line 13' in F:\XAMPP\htdocs\inventario\includes\classi.inc.php:232
+Stack trace:
+#0 F:\XAMPP\htdocs\inventario\includes\classi.inc.php(232): PDOStatement->execute()
+#1 F:\XAMPP\htdocs\inventario\test.php(8): CSV::carica('F:\\XAMPP\\tmp\\ph...')
+#2 {main}
+data: 18-07-2017 11:13:46
+_______________________________
+Errore: exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'L171P-9417 Monitor,4439HB2,2007-10-15,2010-10-14,MonDMS,,0,1,1,2),(CZC1231L2M,HP' at line 13' in F:\XAMPP\htdocs\inventario\includes\classi.inc.php:232
+Stack trace:
+#0 F:\XAMPP\htdocs\inventario\includes\classi.inc.php(232): PDO->query('INSERT INTO dis...')
+#1 F:\XAMPP\htdocs\inventario\test.php(8): CSV::carica('F:\\XAMPP\\tmp\\ph...')
+#2 {main}
+data: 18-07-2017 11:28:16
+_______________________________
+Errore: exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'L171P-9417 Monitor,4439HB2,2007-10-15,2010-10-14,MonDMS,,0,1,1,2),(CZC1231L2M,HP' at line 13' in F:\XAMPP\htdocs\inventario\includes\classi.inc.php:232
+Stack trace:
+#0 F:\XAMPP\htdocs\inventario\includes\classi.inc.php(232): PDO->query('INSERT INTO dis...')
+#1 F:\XAMPP\htdocs\inventario\test.php(8): CSV::carica('F:\\XAMPP\\tmp\\ph...')
+#2 {main}
+data: 18-07-2017 11:31:45
+_______________________________
+Errore: exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'L171P-9417 Monitor,4439HB2,2007-10-15,2010-10-14,MonDMS,,0,1,1,2),(CZC1231L2M,HP' at line 13' in F:\XAMPP\htdocs\inventario\includes\classi.inc.php:233
+Stack trace:
+#0 F:\XAMPP\htdocs\inventario\includes\classi.inc.php(233): PDO->query('INSERT INTO dis...')
+#1 F:\XAMPP\htdocs\inventario\test.php(8): CSV::carica('F:\\XAMPP\\tmp\\ph...')
+#2 {main}
+data: 18-07-2017 11:50:23
+_______________________________
+Errore: exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'nren_inventario'' in F:\XAMPP\htdocs\inventario\includes\classi.inc.php:14
+Stack trace:
+#0 F:\XAMPP\htdocs\inventario\includes\classi.inc.php(14): PDO->__construct('mysql:host=loca...', 'root', 'Sm@rty1098')
+#1 F:\XAMPP\htdocs\inventario\includes\classi.inc.php(178): DB::conn()
+#2 F:\XAMPP\htdocs\inventario\test.php(8): CSV::carica('F:\\XAMPP\\tmp\\ph...')
+#3 {main}
+data: 18-07-2017 11:55:11
+_______________________________
+Errore: exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Compaq 8100 Elite CMT PC,AY031AV,2011-06-09,2014-07-08,CLIENT8842,,,,),(27,V1N53' at line 13' in F:\XAMPP\htdocs\inventario\includes\classi.inc.php:233
+Stack trace:
+#0 F:\XAMPP\htdocs\inventario\includes\classi.inc.php(233): PDO->query('INSERT INTO dis...')
+#1 F:\XAMPP\htdocs\inventario\test.php(8): CSV::carica('F:\\XAMPP\\tmp\\ph...')
+#2 {main}
+data: 18-07-2017 11:56:33
+_______________________________
+Errore: exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '\\\'26\\\',\\\'CZC1231L2M\\\',\\\'HP Compaq 8100 Elite CMT PC\\\',\\\'AY031AV\\\' at line 13' in F:\XAMPP\htdocs\inventario\includes\classi.inc.php:233
+Stack trace:
+#0 F:\XAMPP\htdocs\inventario\includes\classi.inc.php(233): PDO->query('INSERT INTO dis...')
+#1 F:\XAMPP\htdocs\inventario\test.php(8): CSV::carica('F:\\XAMPP\\tmp\\ph...')
+#2 {main}
+data: 18-07-2017 11:58:34
+_______________________________
+Errore: exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '\'26\',\'CZC1231L2M\',\'HP Compaq 8100 Elite CMT PC\',\'AY031AV\',\'2011-06-09\'' at line 13' in F:\XAMPP\htdocs\inventario\includes\classi.inc.php:233
+Stack trace:
+#0 F:\XAMPP\htdocs\inventario\includes\classi.inc.php(233): PDO->query('INSERT INTO dis...')
+#1 F:\XAMPP\htdocs\inventario\test.php(8): CSV::carica('F:\\XAMPP\\tmp\\ph...')
+#2 {main}
+data: 18-07-2017 11:59:14
+_______________________________
+Errore: exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`inventario`.`dispositivi`, CONSTRAINT `fk_dispositivi_Aula` FOREIGN KEY (`Aula_idAula`) REFERENCES `aula` (`idAula`) ON DELETE CASCADE ON UPDATE CASCADE)' in F:\XAMPP\htdocs\inventario\includes\classi.inc.php:233
+Stack trace:
+#0 F:\XAMPP\htdocs\inventario\includes\classi.inc.php(233): PDO->query('INSERT INTO dis...')
+#1 F:\XAMPP\htdocs\inventario\test.php(8): CSV::carica('F:\\XAMPP\\tmp\\ph...')
+#2 {main}
+data: 18-07-2017 11:59:42
+_______________________________
+Errore: 
+data: 18-07-2017 13:38:01
+_______________________________
+Errore: 
+data: 18-07-2017 13:38:12
+_______________________________
+Errore: 
+data: 18-07-2017 13:42:04
+_______________________________
+Errore: 
+data: 18-07-2017 13:43:48
+_______________________________
+Errore: 
+data: 18-07-2017 13:44:34
+_______________________________
+Errore: 
+data: 18-07-2017 13:45:26
+_______________________________
+Errore: 
+data: 18-07-2017 13:47:28
+_______________________________
+Errore: exception 'PDOException' with message 'SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1' in F:\XAMPP\htdocs\inventario\includes\classi.inc.php:246
+Stack trace:
+#0 F:\XAMPP\htdocs\inventario\includes\classi.inc.php(246): PDO->query('INSERT INTO dis...')
+#1 F:\XAMPP\htdocs\inventario\test.php(8): CSV::carica('F:\\XAMPP\\tmp\\ph...')
+#2 {main}
+data: 18-07-2017 14:13:02
+_______________________________
+Errore: exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''(\'VLAGD33\',\'ASSEMBLY L171P-9417 Monitor\',\'4439HB2\',\'2007-10-15\',\'2010-' at line 13' in F:\XAMPP\htdocs\inventario\includes\classi.inc.php:254
+Stack trace:
+#0 F:\XAMPP\htdocs\inventario\includes\classi.inc.php(254): PDOStatement->execute()
+#1 F:\XAMPP\htdocs\inventario\test.php(8): CSV::carica('F:\\XAMPP\\tmp\\ph...')
+#2 {main}
+data: 18-07-2017 14:29:14
+_______________________________
+Errore: exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'dispositivi_idDispositivi' cannot be null' in F:\XAMPP\htdocs\inventario\includes\classi.inc.php:274
+Stack trace:
+#0 F:\XAMPP\htdocs\inventario\includes\classi.inc.php(274): PDOStatement->execute()
+#1 F:\XAMPP\htdocs\inventario\includes\classi.inc.php(349): DB->i_mac('2c:27:d7:24:07:...', 'LAN', NULL)
+#2 F:\XAMPP\htdocs\inventario\test.php(9): CSV->carica('F:\\XAMPP\\tmp\\ph...')
+#3 {main}
+data: 18-07-2017 19:10:45
+_______________________________
+Errore: exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'nren_inventario'' in F:\XAMPP\htdocs\inventario\includes\db.inc.php:3
+Stack trace:
+#0 F:\XAMPP\htdocs\inventario\includes\db.inc.php(3): PDO->__construct('mysql:host=loca...', 'root', 'Sm@rty1098')
+#1 F:\XAMPP\htdocs\inventario\private\consenti.php(19): include_once('F:\\XAMPP\\htdocs...')
+#2 F:\XAMPP\htdocs\inventario\index.php(8): include('F:\\XAMPP\\htdocs...')
+#3 {main}
+data: 18-07-2017 19:14:12
+_______________________________
+Errore: exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'nren_inventario'' in F:\XAMPP\htdocs\inventario\includes\db.inc.php:3
+Stack trace:
+#0 F:\XAMPP\htdocs\inventario\includes\db.inc.php(3): PDO->__construct('mysql:host=loca...', 'root', 'Sm@rty1098')
+#1 F:\XAMPP\htdocs\inventario\private\consenti.php(19): include_once('F:\\XAMPP\\htdocs...')
+#2 F:\XAMPP\htdocs\inventario\index.php(8): include('F:\\XAMPP\\htdocs...')
+#3 {main}
+data: 18-07-2017 19:14:15
+_______________________________
+Errore: exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'BY serial_number
+					HAVING COUNT(*) > 1' at line 3' in F:\XAMPP\htdocs\inventario\includes\classi.inc.php:215
+Stack trace:
+#0 F:\XAMPP\htdocs\inventario\includes\classi.inc.php(215): PDO->query('SELECT serial_n...')
+#1 F:\XAMPP\htdocs\inventario\includes\classi.inc.php(377): DB->array_sn_double()
+#2 F:\XAMPP\htdocs\inventario\test.php(9): CSV->carica('F:\\XAMPP\\tmp\\ph...')
+#3 {main}
+data: 19-07-2017 8:41:51
+_______________________________
+Errore: exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM dispositivi AS d 
+					INNER JOIN aula AS a 
+						ON d.Aula_idAula = a.i' at line 14' in F:\XAMPP\htdocs\inventario\includes\classi.inc.php:282
+Stack trace:
+#0 F:\XAMPP\htdocs\inventario\includes\classi.inc.php(282): PDOStatement->execute()
+#1 F:\XAMPP\htdocs\inventario\private\lista.php(24): DB->controllo('2017-07-17')
+#2 {main}
+data: 19-07-2017 10:48:41
+_______________________________
+Errore: exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 's.smaltito' in 'field list'' in F:\XAMPP\htdocs\inventario\includes\classi.inc.php:282
+Stack trace:
+#0 F:\XAMPP\htdocs\inventario\includes\classi.inc.php(282): PDOStatement->execute()
+#1 F:\XAMPP\htdocs\inventario\private\lista.php(24): DB->controllo('2017-07-17')
+#2 {main}
+data: 19-07-2017 10:48:57
+_______________________________
+Errore: exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in F:\XAMPP\htdocs\inventario\includes\classi.inc.php:363
+Stack trace:
+#0 F:\XAMPP\htdocs\inventario\includes\classi.inc.php(363): PDOStatement->execute()
+#1 F:\XAMPP\htdocs\inventario\private\ricerca_avanzata.php(25): DB->ricerca('', '', '', NULL, NULL, '', '', '', '%', '%', '%', '')
+#2 {main}
+data: 19-07-2017 14:31:21
+_______________________________
+Errore: exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'mac.macaddress' in 'where clause'' in F:\XAMPP\htdocs\inventario\includes\classi.inc.php:363
+Stack trace:
+#0 F:\XAMPP\htdocs\inventario\includes\classi.inc.php(363): PDOStatement->execute()
+#1 F:\XAMPP\htdocs\inventario\private\ricerca_avanzata.php(25): DB->ricerca('', '', '', NULL, NULL, '', '', '', '%', '%', '%', '')
+#2 {main}
+data: 19-07-2017 14:38:46
+_______________________________
+Errore: exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LIMIT 50, 25' at line 1' in F:\XAMPP\htdocs\inventario\includes\classi.inc.php:846
+Stack trace:
+#0 F:\XAMPP\htdocs\inventario\includes\classi.inc.php(846): PDO->query('SELECT * FROM d...')
+#1 F:\XAMPP\htdocs\inventario\table.php(21): table->query('SELECT * FROM d...')
+#2 {main}
+data: 21-07-2017 17:27:18
+_______________________________
+Errore: exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in F:\XAMPP\htdocs\inventario\includes\classi.inc.php:877
+Stack trace:
+#0 F:\XAMPP\htdocs\inventario\includes\classi.inc.php(877): PDO->query('')
+#1 F:\XAMPP\htdocs\inventario\includes\classi.inc.php(891): table->nrow()
+#2 F:\XAMPP\htdocs\inventario\includes\classi.inc.php(930): table->nav_record()
+#3 F:\XAMPP\htdocs\inventario\table.php(24): table->end()
+#4 {main}
+data: 21-07-2017 18:30:33
+_______________________________
+Errore: exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in F:\XAMPP\htdocs\inventario\includes\classi.inc.php:877
+Stack trace:
+#0 F:\XAMPP\htdocs\inventario\includes\classi.inc.php(877): PDO->query('')
+#1 F:\XAMPP\htdocs\inventario\includes\classi.inc.php(892): table->nrow()
+#2 F:\XAMPP\htdocs\inventario\includes\classi.inc.php(931): table->nav_record()
+#3 F:\XAMPP\htdocs\inventario\table.php(24): table->end()
+#4 {main}
+data: 21-07-2017 18:31:50
+_______________________________
+Errore: exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in F:\XAMPP\htdocs\inventario\includes\classi.inc.php:877
+Stack trace:
+#0 F:\XAMPP\htdocs\inventario\includes\classi.inc.php(877): PDO->query('')
+#1 F:\XAMPP\htdocs\inventario\includes\classi.inc.php(892): table->nrow()
+#2 F:\XAMPP\htdocs\inventario\includes\classi.inc.php(931): table->nav_record()
+#3 F:\XAMPP\htdocs\inventario\table.php(24): table->end()
+#4 {main}
+data: 21-07-2017 18:31:54
+_______________________________
+Errore: exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in F:\XAMPP\htdocs\inventario\includes\classi.inc.php:878
+Stack trace:
+#0 F:\XAMPP\htdocs\inventario\includes\classi.inc.php(878): PDO->query('')
+#1 F:\XAMPP\htdocs\inventario\includes\classi.inc.php(893): table->nrow()
+#2 F:\XAMPP\htdocs\inventario\includes\classi.inc.php(932): table->nav_record()
+#3 F:\XAMPP\htdocs\inventario\table.php(24): table->end()
+#4 {main}
+data: 21-07-2017 18:33:05
+_______________________________
+Errore: exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LIMIT 25' at line 1' in F:\XAMPP\htdocs\inventario\includes\classi.inc.php:846
+Stack trace:
+#0 F:\XAMPP\htdocs\inventario\includes\classi.inc.php(846): PDO->query('SELECT * FROM d...')
+#1 F:\XAMPP\htdocs\inventario\table.php(21): table->query('SELECT * FROM d...')
+#2 {main}
+data: 24-07-2017 8:09:52
+_______________________________
+Errore: exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LIMIT 25' at line 1' in F:\XAMPP\htdocs\inventario\includes\classi.inc.php:846
+Stack trace:
+#0 F:\XAMPP\htdocs\inventario\includes\classi.inc.php(846): PDO->query('SELECT * FROM d...')
+#1 F:\XAMPP\htdocs\inventario\table.php(21): table->query('SELECT * FROM d...')
+#2 {main}
+data: 24-07-2017 8:10:52
+_______________________________
+Errore: exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'key ASC LIMIT 25' at line 12' in F:\XAMPP\htdocs\inventario\includes\classi.inc.php:848
+Stack trace:
+#0 F:\XAMPP\htdocs\inventario\includes\classi.inc.php(848): PDO->query('SELECT DISTINCT...')
+#1 F:\XAMPP\htdocs\inventario\private\consenti.php(62): table->query('SELECT DISTINCT...')
+#2 {main}
+data: 24-07-2017 12:57:20
+_______________________________
+Errore: exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'e nome_cognome ASC LIMIT 25' at line 12' in F:\XAMPP\htdocs\inventario\includes\classi.inc.php:848
+Stack trace:
+#0 F:\XAMPP\htdocs\inventario\includes\classi.inc.php(848): PDO->query('SELECT DISTINCT...')
+#1 F:\XAMPP\htdocs\inventario\private\consenti.php(62): table->query('SELECT DISTINCT...')
+#2 {main}
+data: 24-07-2017 12:57:43
+_______________________________
+Errore: exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'e nome_cognome ASC LIMIT 25' at line 12' in F:\XAMPP\htdocs\inventario\includes\classi.inc.php:848
+Stack trace:
+#0 F:\XAMPP\htdocs\inventario\includes\classi.inc.php(848): PDO->query('SELECT DISTINCT...')
+#1 F:\XAMPP\htdocs\inventario\private\consenti.php(62): table->query('SELECT DISTINCT...')
+#2 {main}
+data: 24-07-2017 13:50:08
+_______________________________
+Errore: exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'e nome_cognome ASC LIMIT 25' at line 12' in F:\XAMPP\htdocs\inventario\includes\classi.inc.php:848
+Stack trace:
+#0 F:\XAMPP\htdocs\inventario\includes\classi.inc.php(848): PDO->query('SELECT DISTINCT...')
+#1 F:\XAMPP\htdocs\inventario\private\consenti.php(62): table->query('SELECT DISTINCT...')
+#2 {main}
+data: 24-07-2017 13:50:32
+_______________________________
+Errore: exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'e nome_cognome ASC LIMIT 25' at line 12' in F:\XAMPP\htdocs\inventario\includes\classi.inc.php:848
+Stack trace:
+#0 F:\XAMPP\htdocs\inventario\includes\classi.inc.php(848): PDO->query('SELECT DISTINCT...')
+#1 F:\XAMPP\htdocs\inventario\private\consenti.php(62): table->query('SELECT DISTINCT...')
+#2 {main}
+data: 24-07-2017 13:56:17
+_______________________________
+Errore: exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'key ASC LIMIT 25' at line 12' in F:\XAMPP\htdocs\inventario\includes\classi.inc.php:848
+Stack trace:
+#0 F:\XAMPP\htdocs\inventario\includes\classi.inc.php(848): PDO->query('SELECT DISTINCT...')
+#1 F:\XAMPP\htdocs\inventario\private\consenti.php(62): table->query('SELECT DISTINCT...')
+#2 {main}
+data: 24-07-2017 13:57:06
+_______________________________
+Errore: exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'key ASC LIMIT 25' at line 12' in F:\XAMPP\htdocs\inventario\includes\classi.inc.php:848
+Stack trace:
+#0 F:\XAMPP\htdocs\inventario\includes\classi.inc.php(848): PDO->query('SELECT DISTINCT...')
+#1 F:\XAMPP\htdocs\inventario\private\consenti.php(62): table->query('SELECT DISTINCT...')
+#2 {main}
+data: 24-07-2017 13:57:17
+_______________________________
+Errore: exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':data 
+						OR c.data IS NULL' at line 11' in F:\XAMPP\htdocs\inventario\includes\classi.inc.php:921
+Stack trace:
+#0 F:\XAMPP\htdocs\inventario\includes\classi.inc.php(921): PDO->query('SELECT count(d....')
+#1 F:\XAMPP\htdocs\inventario\private\lista.php(23): table->nrow('SELECT count(d....')
+#2 {main}
+data: 25-07-2017 9:55:13
+_______________________________
+Errore: exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':data 
+						OR c.data IS NULL' at line 11' in F:\XAMPP\htdocs\inventario\includes\classi.inc.php:921
+Stack trace:
+#0 F:\XAMPP\htdocs\inventario\includes\classi.inc.php(921): PDO->query('SELECT count(d....')
+#1 F:\XAMPP\htdocs\inventario\private\lista.php(23): table->nrow('SELECT count(d....')
+#2 {main}
+data: 25-07-2017 9:55:17
+_______________________________
+Errore: exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '%%
+						OR product_name LIKE %%
+						OR product_number LIKE %%
+						OR ini' at line 24' in F:\XAMPP\htdocs\inventario\includes\classi.inc.php:601
+Stack trace:
+#0 F:\XAMPP\htdocs\inventario\includes\classi.inc.php(601): PDO->query('SELECT \r\n\t\t\t\t\t\t...')
+#1 F:\XAMPP\htdocs\inventario\private\ricerca.php(20): DB->ricerca('%%')
+#2 {main}
+data: 25-07-2017 11:13:16
+_______________________________
+Errore: exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '%%
+						OR product_name LIKE %%
+						OR product_number LIKE %%
+						OR ini' at line 24' in F:\XAMPP\htdocs\inventario\includes\classi.inc.php:601
+Stack trace:
+#0 F:\XAMPP\htdocs\inventario\includes\classi.inc.php(601): PDO->query('SELECT \r\n\t\t\t\t\t\t...')
+#1 F:\XAMPP\htdocs\inventario\private\ricerca.php(20): DB->ricerca('%%')
+#2 {main}
+data: 25-07-2017 11:14:11
+_______________________________
+Errore: exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '%%
+						OR product_name LIKE %%
+						OR product_number LIKE %%
+						OR ini' at line 24' in F:\XAMPP\htdocs\inventario\includes\classi.inc.php:601
+Stack trace:
+#0 F:\XAMPP\htdocs\inventario\includes\classi.inc.php(601): PDO->query('SELECT \r\n\t\t\t\t\t\t...')
+#1 F:\XAMPP\htdocs\inventario\private\ricerca.php(20): DB->ricerca('%%')
+#2 {main}
+data: 25-07-2017 11:14:34
+_______________________________
+Errore: exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '%%
+						OR product_name LIKE %%
+						OR product_number LIKE %%
+						OR ini' at line 11' in F:\XAMPP\htdocs\inventario\includes\classi.inc.php:954
+Stack trace:
+#0 F:\XAMPP\htdocs\inventario\includes\classi.inc.php(954): PDO->query('SELECT count(d....')
+#1 F:\XAMPP\htdocs\inventario\private\ricerca.php(22): table->nrow('SELECT count(d....')
+#2 {main}
+data: 25-07-2017 11:16:26
+_______________________________
+Errore: exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '%%"
+					AND COALESCE(d.product_name, '') LIKE "%%"
+					AND COALESCE(d.produc' at line 11' in F:\XAMPP\htdocs\inventario\includes\classi.inc.php:977
+Stack trace:
+#0 F:\XAMPP\htdocs\inventario\includes\classi.inc.php(977): PDO->query('SELECT count(d....')
+#1 F:\XAMPP\htdocs\inventario\private\ricerca_avanzata.php(22): table->nrow('SELECT count(d....')
+#2 {main}
+data: 25-07-2017 11:52:02
+_______________________________
+Errore: exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '%%"
+					AND COALESCE(d.product_name, '') LIKE "%%"
+					AND COALESCE(d.produc' at line 11' in F:\XAMPP\htdocs\inventario\includes\classi.inc.php:978
+Stack trace:
+#0 F:\XAMPP\htdocs\inventario\includes\classi.inc.php(978): PDO->query('SELECT count(d....')
+#1 F:\XAMPP\htdocs\inventario\private\ricerca_avanzata.php(22): table->nrow('SELECT count(d....')
+#2 {main}
+data: 25-07-2017 11:52:39
+_______________________________
+Errore: exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '%%"
+					AND COALESCE(d.product_name, '') LIKE "%%"
+					AND COALESCE(d.produc' at line 11' in F:\XAMPP\htdocs\inventario\includes\classi.inc.php:978
+Stack trace:
+#0 F:\XAMPP\htdocs\inventario\includes\classi.inc.php(978): PDO->query('SELECT count(d....')
+#1 F:\XAMPP\htdocs\inventario\private\ricerca_avanzata.php(22): table->nrow('SELECT count(d....')
+#2 {main}
+data: 25-07-2017 11:53:44
+_______________________________
+Errore: exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '%%"
+					AND COALESCE(d.product_name, '') LIKE "%%"
+					AND COALESCE(d.produc' at line 11' in F:\XAMPP\htdocs\inventario\includes\classi.inc.php:978
+Stack trace:
+#0 F:\XAMPP\htdocs\inventario\includes\classi.inc.php(978): PDO->query('SELECT count(d....')
+#1 F:\XAMPP\htdocs\inventario\private\ricerca_avanzata.php(22): table->nrow('SELECT count(d....')
+#2 {main}
+data: 25-07-2017 11:53:54
+_______________________________
+Errore: exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'key ASC LIMIT 25' at line 12' in F:\XAMPP\htdocs\inventario\includes\classi.inc.php:1088
+Stack trace:
+#0 F:\XAMPP\htdocs\inventario\includes\classi.inc.php(1088): PDO->query('SELECT \r\n\t\t\tr.i...')
+#1 F:\XAMPP\htdocs\inventario\private\consenti.php(58): table->query('SELECT \r\n\t\t\tr.i...')
+#2 {main}
+data: 25-07-2017 12:44:26
+_______________________________
+Errore: exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'Accesso_idAccesso' cannot be null' in F:\XAMPP\htdocs\inventario\includes\classi.inc.php:220
+Stack trace:
+#0 F:\XAMPP\htdocs\inventario\includes\classi.inc.php(220): PDOStatement->execute()
+#1 F:\XAMPP\htdocs\inventario\index.php(36): DB->accessi(NULL)
+#2 F:\XAMPP\htdocs\inventario\includes\classi.inc.php(29): include('F:\\XAMPP\\htdocs...')
+#3 F:\XAMPP\htdocs\inventario\private\consenti.php(14): IO::check()
+#4 {main}
+data: 25-07-2017 13:06:57
+_______________________________
+Errore: exception 'PDOException' with message 'SQLSTATE[HY000] [2002] No such file or directory' in /home/clients/a543b8db3c011f3fe4c98501f659c9ae/web/inventario/includes/classi.inc.php:176
+Stack trace:
+#0 /home/clients/a543b8db3c011f3fe4c98501f659c9ae/web/inventario/includes/classi.inc.php(176): PDO->__construct('mysql:host=loca...', 'root', 'Sm@rty1098')
+#1 /home/clients/a543b8db3c011f3fe4c98501f659c9ae/web/inventario/index.php(29): DB->__construct()
+#2 {main}
+data: 26-07-2017 9:40:11
+_______________________________
+Errore: exception 'PDOException' with message 'SQLSTATE[HY000] [2002] No such file or directory' in /home/clients/a543b8db3c011f3fe4c98501f659c9ae/web/inventario/includes/classi.inc.php:176
+Stack trace:
+#0 /home/clients/a543b8db3c011f3fe4c98501f659c9ae/web/inventario/includes/classi.inc.php(176): PDO->__construct('mysql:host=loca...', 'root', 'Sm@rty1098')
+#1 /home/clients/a543b8db3c011f3fe4c98501f659c9ae/web/inventario/index.php(29): DB->__construct()
+#2 {main}
+data: 26-07-2017 9:41:08
+_______________________________
+Errore: exception 'PDOException' with message 'SQLSTATE[HY000] [2002] No such file or directory' in /home/clients/a543b8db3c011f3fe4c98501f659c9ae/web/inventario/includes/classi.inc.php:176
+Stack trace:
+#0 /home/clients/a543b8db3c011f3fe4c98501f659c9ae/web/inventario/includes/classi.inc.php(176): PDO->__construct('mysql:host=loca...', 'root', 'Sm@rty1098')
+#1 /home/clients/a543b8db3c011f3fe4c98501f659c9ae/web/inventario/index.php(29): DB->__construct()
+#2 {main}
+data: 26-07-2017 9:41:33
+_______________________________
+Errore: exception 'PDOException' with message 'SQLSTATE[HY000] [2002] No such file or directory' in /home/clients/a543b8db3c011f3fe4c98501f659c9ae/web/inventario/includes/classi.inc.php:176
+Stack trace:
+#0 /home/clients/a543b8db3c011f3fe4c98501f659c9ae/web/inventario/includes/classi.inc.php(176): PDO->__construct('mysql:host=loca...', 'root', 'Sm@rty1098')
+#1 /home/clients/a543b8db3c011f3fe4c98501f659c9ae/web/inventario/index.php(29): DB->__construct()
+#2 {main}
+data: 26-07-2017 9:41:55
+_______________________________
+Errore: exception 'PDOException' with message 'SQLSTATE[HY000] [2002] No such file or directory' in /home/clients/a543b8db3c011f3fe4c98501f659c9ae/web/inventario/includes/classi.inc.php:176
+Stack trace:
+#0 /home/clients/a543b8db3c011f3fe4c98501f659c9ae/web/inventario/includes/classi.inc.php(176): PDO->__construct('mysql:host=loca...', 'root', 'Sm@rty1098')
+#1 /home/clients/a543b8db3c011f3fe4c98501f659c9ae/web/inventario/index.php(29): DB->__construct()
+#2 {main}
+data: 26-07-2017 9:42:22
+_______________________________
+Errore: exception 'PDOException' with message 'SQLSTATE[HY000] [2002] No such file or directory' in /home/clients/a543b8db3c011f3fe4c98501f659c9ae/web/inventario/includes/classi.inc.php:176
+Stack trace:
+#0 /home/clients/a543b8db3c011f3fe4c98501f659c9ae/web/inventario/includes/classi.inc.php(176): PDO->__construct('mysql:host=loca...', 'root', 'Sm@rty1098')
+#1 /home/clients/a543b8db3c011f3fe4c98501f659c9ae/web/inventario/index.php(29): DB->__construct()
+#2 {main}
+data: 26-07-2017 9:43:14
+_______________________________
+Errore: exception 'PDOException' with message 'SQLSTATE[HY000] [2002] No such file or directory' in /home/clients/a543b8db3c011f3fe4c98501f659c9ae/web/inventario/includes/classi.inc.php:176
+Stack trace:
+#0 /home/clients/a543b8db3c011f3fe4c98501f659c9ae/web/inventario/includes/classi.inc.php(176): PDO->__construct('mysql:host=loca...', 'root', 'Sm@rty1098')
+#1 /home/clients/a543b8db3c011f3fe4c98501f659c9ae/web/inventario/index.php(29): DB->__construct()
+#2 {main}
+data: 26-07-2017 9:46:26
+_______________________________
+Errore: exception 'PDOException' with message 'SQLSTATE[HY000] [2002] No such file or directory' in /home/clients/a543b8db3c011f3fe4c98501f659c9ae/web/inventario/includes/classi.inc.php:176
+Stack trace:
+#0 /home/clients/a543b8db3c011f3fe4c98501f659c9ae/web/inventario/includes/classi.inc.php(176): PDO->__construct('mysql:host=loca...', 'root', 'Sm@rty1098')
+#1 /home/clients/a543b8db3c011f3fe4c98501f659c9ae/web/inventario/index.php(29): DB->__construct()
+#2 {main}
+data: 26-07-2017 9:48:34
+_______________________________
+Errore: exception 'PDOException' with message 'SQLSTATE[HY000] [2002] No such file or directory' in /home/clients/a543b8db3c011f3fe4c98501f659c9ae/web/inventario/includes/classi.inc.php:176
+Stack trace:
+#0 /home/clients/a543b8db3c011f3fe4c98501f659c9ae/web/inventario/includes/classi.inc.php(176): PDO->__construct('mysql:host=loca...', 'root', 'Sm@rty1098')
+#1 /home/clients/a543b8db3c011f3fe4c98501f659c9ae/web/inventario/index.php(29): DB->__construct()
+#2 {main}
+data: 26-07-2017 9:49:08
+_______________________________
+Errore: exception 'PDOException' with message 'SQLSTATE[HY000] [2002] No such file or directory' in /home/clients/a543b8db3c011f3fe4c98501f659c9ae/web/inventario/includes/classi.inc.php:176
+Stack trace:
+#0 /home/clients/a543b8db3c011f3fe4c98501f659c9ae/web/inventario/includes/classi.inc.php(176): PDO->__construct('mysql:host=loca...', 'root', 'Sm@rty1098')
+#1 /home/clients/a543b8db3c011f3fe4c98501f659c9ae/web/inventario/index.php(29): DB->__construct()
+#2 {main}
+data: 26-07-2017 9:49:36
+_______________________________
+Errore: exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'nren_inventario.accesso' doesn't exist' in /home/clients/a543b8db3c011f3fe4c98501f659c9ae/web/inventario/includes/classi.inc.php:203
+Stack trace:
+#0 /home/clients/a543b8db3c011f3fe4c98501f659c9ae/web/inventario/includes/classi.inc.php(203): PDO->query('SELECT *\n\t\t\t\t\tF...')
+#1 /home/clients/a543b8db3c011f3fe4c98501f659c9ae/web/inventario/index.php(30): DB->password()
+#2 {main}
+data: 26-07-2017 9:52:55
+_______________________________
+Errore: exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'nren_inventario.dispositivi' doesn't exist' in /home/clients/a543b8db3c011f3fe4c98501f659c9ae/web/inventario/includes/classi.inc.php:1021
+Stack trace:
+#0 /home/clients/a543b8db3c011f3fe4c98501f659c9ae/web/inventario/includes/classi.inc.php(1021): PDO->query('SELECT count(d....')
+#1 /home/clients/a543b8db3c011f3fe4c98501f659c9ae/web/inventario/private/lista.php(21): table->nrow('SELECT count(d....')
+#2 {main}
+data: 26-07-2017 9:54:52
+_______________________________
+Errore: exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'nren_inventario.aula' doesn't exist' in /home/clients/a543b8db3c011f3fe4c98501f659c9ae/web/inventario/includes/classi.inc.php:1021
+Stack trace:
+#0 /home/clients/a543b8db3c011f3fe4c98501f659c9ae/web/inventario/includes/classi.inc.php(1021): PDO->query('SELECT count(d....')
+#1 /home/clients/a543b8db3c011f3fe4c98501f659c9ae/web/inventario/private/lista.php(21): table->nrow('SELECT count(d....')
+#2 {main}
+data: 26-07-2017 9:58:06
+_______________________________
+Errore: exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'nren_inventario.tipo' doesn't exist' in /home/clients/a543b8db3c011f3fe4c98501f659c9ae/web/inventario/includes/classi.inc.php:1021
+Stack trace:
+#0 /home/clients/a543b8db3c011f3fe4c98501f659c9ae/web/inventario/includes/classi.inc.php(1021): PDO->query('SELECT count(d....')
+#1 /home/clients/a543b8db3c011f3fe4c98501f659c9ae/web/inventario/private/lista.php(21): table->nrow('SELECT count(d....')
+#2 {main}
+data: 26-07-2017 10:00:11
+_______________________________
+Errore: exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'nren_inventario.aula' doesn't exist' in /home/clients/a543b8db3c011f3fe4c98501f659c9ae/web/inventario/includes/classi.inc.php:315
+Stack trace:
+#0 /home/clients/a543b8db3c011f3fe4c98501f659c9ae/web/inventario/includes/classi.inc.php(315): PDO->query('SELECT *\n\t\t\t\t\t\t...')
+#1 /home/clients/a543b8db3c011f3fe4c98501f659c9ae/web/inventario/includes/classi.inc.php(867): DB->r_array('aula')
+#2 /home/clients/a543b8db3c011f3fe4c98501f659c9ae/web/inventario/includes/classi.inc.php(918): CSV->contr('aula', 'aula4', 1)
+#3 /home/clients/a543b8db3c011f3fe4c98501f659c9ae/web/inventario/private/importa.php(15): CSV->carica('/home/clients/a...')
+#4 {main}
+data: 26-07-2017 10:10:50
+_______________________________
+Errore: exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'nren_inventario.aula' doesn't exist' in /home/clients/a543b8db3c011f3fe4c98501f659c9ae/web/inventario/includes/classi.inc.php:315
+Stack trace:
+#0 /home/clients/a543b8db3c011f3fe4c98501f659c9ae/web/inventario/includes/classi.inc.php(315): PDO->query('SELECT *\n\t\t\t\t\t\t...')
+#1 /home/clients/a543b8db3c011f3fe4c98501f659c9ae/web/inventario/includes/classi.inc.php(152): DB->r_array('aula')
+#2 /home/clients/a543b8db3c011f3fe4c98501f659c9ae/web/inventario/private/aggiungere.php(82): IO::m_tend('aula')
+#3 {main}
+data: 26-07-2017 10:12:36
+_______________________________
+Errore: exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'nren_inventario.aula' doesn't exist' in /home/clients/a543b8db3c011f3fe4c98501f659c9ae/web/inventario/includes/classi.inc.php:315
+Stack trace:
+#0 /home/clients/a543b8db3c011f3fe4c98501f659c9ae/web/inventario/includes/classi.inc.php(315): PDO->query('SELECT *\n\t\t\t\t\t\t...')
+#1 /home/clients/a543b8db3c011f3fe4c98501f659c9ae/web/inventario/includes/classi.inc.php(152): DB->r_array('aula')
+#2 /home/clients/a543b8db3c011f3fe4c98501f659c9ae/web/inventario/private/ricerca_avanzata.php(74): IO::m_tend('aula')
+#3 {main}
+data: 26-07-2017 10:12:47
+_______________________________
+Errore: exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'nren_inventario.Aula' doesn't exist' in /home/clients/a543b8db3c011f3fe4c98501f659c9ae/web/inventario/includes/classi.inc.php:315
+Stack trace:
+#0 /home/clients/a543b8db3c011f3fe4c98501f659c9ae/web/inventario/includes/classi.inc.php(315): PDO->query('SELECT *\n\t\t\t\t\t\t...')
+#1 /home/clients/a543b8db3c011f3fe4c98501f659c9ae/web/inventario/includes/classi.inc.php(867): DB->r_array('Aula')
+#2 /home/clients/a543b8db3c011f3fe4c98501f659c9ae/web/inventario/includes/classi.inc.php(918): CSV->contr('Aula', 'aula4', 1)
+#3 /home/clients/a543b8db3c011f3fe4c98501f659c9ae/web/inventario/private/importa.php(15): CSV->carica('/home/clients/a...')
+#4 {main}
+data: 26-07-2017 10:22:16
+_______________________________
+Errore: exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'Dispositivi_idDispositivi' cannot be null' in /home/clients/a543b8db3c011f3fe4c98501f659c9ae/web/inventario/includes/classi.inc.php:261
+Stack trace:
+#0 /home/clients/a543b8db3c011f3fe4c98501f659c9ae/web/inventario/includes/classi.inc.php(261): PDOStatement->execute()
+#1 /home/clients/a543b8db3c011f3fe4c98501f659c9ae/web/inventario/controllo.php(31): DB->agg_contr(NULL, '23')
+#2 {main}
+data: 26-07-2017 12:16:21
+_______________________________
+Errore: exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'Dispositivi_idDispositivi' cannot be null' in /home/clients/a543b8db3c011f3fe4c98501f659c9ae/web/inventario/includes/classi.inc.php:261
+Stack trace:
+#0 /home/clients/a543b8db3c011f3fe4c98501f659c9ae/web/inventario/includes/classi.inc.php(261): PDOStatement->execute()
+#1 /home/clients/a543b8db3c011f3fe4c98501f659c9ae/web/inventario/controllo.php(31): DB->agg_contr(NULL, '23')
+#2 {main}
+data: 26-07-2017 12:17:36
+_______________________________
+Errore: exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'nren_inventario'@'h2web60.infomaniak.ch' (using password: YES)' in /home/clients/a543b8db3c011f3fe4c98501f659c9ae/web/inventario/includes/classi.inc.php:176
+Stack trace:
+#0 /home/clients/a543b8db3c011f3fe4c98501f659c9ae/web/inventario/includes/classi.inc.php(176): PDO->__construct('mysql:host=nren...', 'nren_inventario', '1kgXLvpZYt6')
+#1 /home/clients/a543b8db3c011f3fe4c98501f659c9ae/web/inventario/includes/classi.inc.php(1011): DB->__construct()
+#2 /home/clients/a543b8db3c011f3fe4c98501f659c9ae/web/inventario/private/lista.php(16): table->__construct()
+#3 {main}
+data: 27-07-2017 9:55:09
+_______________________________
+Errore: exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'nren_inventario'@'h2web60.infomaniak.ch' (using password: YES)' in /home/clients/a543b8db3c011f3fe4c98501f659c9ae/web/inventario/includes/classi.inc.php:176
+Stack trace:
+#0 /home/clients/a543b8db3c011f3fe4c98501f659c9ae/web/inventario/includes/classi.inc.php(176): PDO->__construct('mysql:host=nren...', 'nren_inventario', '1kgXLvpZYt6')
+#1 /home/clients/a543b8db3c011f3fe4c98501f659c9ae/web/inventario/includes/classi.inc.php(1011): DB->__construct()
+#2 /home/clients/a543b8db3c011f3fe4c98501f659c9ae/web/inventario/private/lista.php(16): table->__construct()
+#3 {main}
+data: 27-07-2017 9:56:45
+_______________________________
+Errore: exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'nren_inventario'@'h2web60.infomaniak.ch' (using password: YES)' in /home/clients/a543b8db3c011f3fe4c98501f659c9ae/web/inventario/includes/classi.inc.php:176
+Stack trace:
+#0 /home/clients/a543b8db3c011f3fe4c98501f659c9ae/web/inventario/includes/classi.inc.php(176): PDO->__construct('mysql:host=nren...', 'nren_inventario', '1kgXLvpZYt6')
+#1 /home/clients/a543b8db3c011f3fe4c98501f659c9ae/web/inventario/includes/classi.inc.php(1011): DB->__construct()
+#2 /home/clients/a543b8db3c011f3fe4c98501f659c9ae/web/inventario/private/lista.php(16): table->__construct()
+#3 {main}
+data: 27-07-2017 10:04:32
+_______________________________
+Errore: exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'nren_inventario'@'h2web60.infomaniak.ch' (using password: YES)' in /home/clients/a543b8db3c011f3fe4c98501f659c9ae/web/inventario/includes/classi.inc.php:176
+Stack trace:
+#0 /home/clients/a543b8db3c011f3fe4c98501f659c9ae/web/inventario/includes/classi.inc.php(176): PDO->__construct('mysql:host=nren...', 'nren_inventario', '1kgXLvpZYt6')
+#1 /home/clients/a543b8db3c011f3fe4c98501f659c9ae/web/inventario/includes/classi.inc.php(1011): DB->__construct()
+#2 /home/clients/a543b8db3c011f3fe4c98501f659c9ae/web/inventario/private/lista.php(16): table->__construct()
+#3 {main}
+data: 27-07-2017 10:04:54
+_______________________________
+Errore: PDOException: SQLSTATE[HY000] [2002] Impossibile stabilire la connessione. Risposta non corretta della parte connessa dopo l'intervallo di tempo oppure mancata risposta dall'host collegato.
+ in C:\xampp\htdocs\inventario\includes\classi.inc.php:176
+Stack trace:
+#0 C:\xampp\htdocs\inventario\includes\classi.inc.php(176): PDO->__construct('mysql:host=nren...', 'nren_inventario', '1kgXLvpZYt6F')
+#1 C:\xampp\htdocs\inventario\index.php(29): DB->__construct()
+#2 {main}
+data: 30-09-2017 23:52:25
+_______________________________
