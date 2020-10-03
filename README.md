@@ -24,7 +24,7 @@ Inizialize database:
 1. create a database named: "nren_inventario"
 1. import into the database /db/schema.sql
 
-Setup web:
+Setup web (recommended web server: XAMPP):
 * rename "web" folder in  "inventario" (the site should be accessed by http://\<domain\>/inventario)
 * the default password is: **admin123Inv**
 
