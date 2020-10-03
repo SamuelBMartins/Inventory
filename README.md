@@ -7,7 +7,7 @@ Website for the management of inventory devices for companies with QR-Code gener
 * [Screenshots](#screenshots)
 * [Setup](#setup)
 * [Features](#features)
-* [Dependencies](#Dependencies)
+* [Dependencies](#dependencies)
 * [Tested On](#tested-on)
 
 
@@ -24,7 +24,8 @@ Inizialize database:
 1. create a database named: "nren_inventario"
 1. import into the database /db/schema.sql
 
-* rename "web" folder in  "inventario" (the site should be accessed by http://<domain>/inventario)
+Setup web:
+* rename "web" folder in  "inventario" (the site should be accessed by http://\<domain\>/inventario)
 * the default password is: **admin123Inv**
 
 ## Features
