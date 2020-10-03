@@ -29,11 +29,11 @@ Setup web (recommended web server: XAMPP):
 * the default password is: **admin123Inv**
 
 ## Features
-* organize devices
-* list for devices to check
+* Organize devices
+* View for devices to check
 * QR-code generator
-* export-import CSV
-* advanced search for device
+* Export-import CSV
+* Advanced search for device
 
 ## Dependencies
 This software utilizes the following dependencies, this dependencis are already included in the project.
