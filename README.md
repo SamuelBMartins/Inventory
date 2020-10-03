@@ -1,14 +1,14 @@
 # Inventory
-Website for the management of inventory devices for companies with QR-Code generator for the periodically controlling od the devices
+Website for the management of inventory devices for companies with QR-Code generator for the periodically controlling of the devices
 
 
 ## Table of contents
-* [General Info](#generalinfo)
+* [General Info](#general-info)
 * [Screenshots](#screenshots)
 * [Setup](#setup)
 * [Features](#features)
 * [Dependencies](#Dependencies)
-* [Tested On](#testedon)
+* [Tested On](#tested-on)
 
 
 ## General Info
