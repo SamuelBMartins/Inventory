@@ -1255,7 +1255,7 @@ class QR
 	{
 		self::$dimensione = $dimensione;//setta variabile che poi verra recuperata dalla funzione codice
 		global $root;
-		$link = 'http://spse.ch'.$root.'/controllo.php?id=' . $id;
+		$link = 'http://domain.com'.$root.'/controllo.php?id=' . $id;
 		$link = urlencode($link);
 		self::codice($link);
 	}
